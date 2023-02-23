@@ -2,20 +2,35 @@
 
 ## Que contiene este repo?
 
-BackEnd del ejercicio de entrevistas para esfera de numeros romanos
+BackEnd del ejercicio de entrevistas para esfera de numeros romanos.
 
 ## Antes de arrancar
+
+### Para Java
+
+```
+./mvnw install
+```
+
+### Para correr el proyecto con sprint
+
+```
+./mvnw spring-boot:run
+```
+
+### Para node
 
 ```
 npm install
 ```
 
-## Para correr en modo Dev con nodemon
+### Para correr en modo Dev con nodemon
 
 ```
 npm run start:dev
+```
 
-## Para correr los test
+### Para correr los test
 
 ```
 npm run test
@@ -23,14 +38,8 @@ npm run test
 
 ## Features:
 
-* El endpoint de /transformar/romanos que recibe un numero, tiene que retorno el mismo pero en numeros romanos cuando:
-    ** esta entre el 1 y el 10
-    ** esta entre el 10 y el 20
-    ** esta entre el 20 y el 100
-* El endpoint de /transformar/arabigos que recibe un numero, tiene que retorno el mismo pero en numeros arabigos cuando:
-    ** esta entre el I y el X
-    ** esta entre el X y el L
-    ** esta entre el L y el C
+* El endpoint de /transformar/romanos que recibe un numero, tiene que retornar el mismo pero en numeros romanos.
+* El endpoint de /transformar/arabigos que recibe un numero, tiene que retorno el mismo pero en numeros arabigos.
 
 ## Recursos: 
-    Numero romanos http://numerosromanos.babuo.com/numeros-romanos-del-100-al-1000
+    Numero romanos http://numerosromanos.babuo.com/numeros-romanos-del-1-al-100
